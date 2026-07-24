@@ -23,7 +23,7 @@ The validation workbook has SHA 256 value
 `3bd3d5eb859ee8e36f00e63423f0756e601d30a38d409cf144108864ed1310d7`.
 
 These values are stored within the archived data extract.
-`scripts/build_snapshot.py` reads the three sources and prepares the data used
+`scripts/prepare_hansen_data.py` reads the three sources and prepares the data used
 for exports S1 to S8.
 
 ## Construction of each export

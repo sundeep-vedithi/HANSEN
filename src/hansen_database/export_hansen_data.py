@@ -4,7 +4,7 @@ import argparse
 import json
 from pathlib import Path
 
-from .export import bundled_snapshot, generate_exports
+from .generate_exports import bundled_snapshot, generate_exports
 
 
 def main() -> None:

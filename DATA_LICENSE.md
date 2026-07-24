@@ -1,7 +1,7 @@
 # HANSEN data licence and source attribution
 
 The archived HANSEN data in
-`src/hansen_repro/data/hansen_snapshot.json.gz.b64.part-*` and the generated
+`src/hansen_database/data/hansen_snapshot.json.gz.b64.part-*` and the generated
 TSV files are provided under the
 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 where the conditions of the original scientific resources permit this use.

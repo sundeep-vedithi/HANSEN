@@ -79,50 +79,26 @@ for 1603 proteins.
 The expected row counts and SHA 256 values are recorded in
 `reference/expected_manifest.json`.
 
-## Programs and their functions
+## Programs
 
-### `hansen-export`
+The `hansen-export` command reads the archived HANSEN data and creates the
+eight TSV files together with the output manifest.
 
-This command reads the archived HANSEN data extract and writes all eight TSV
-files together with the output manifest.
+The `src/hansen_database/export_hansen_data.py` program defines the command
+options and accepts either the archived data supplied with this repository or
+a compatible file provided by the user.
 
-### `src/hansen_repro/cli.py`
+The `src/hansen_database/generate_exports.py` program calculates the stated
+summary values, orders the HANSEN records, writes the TSV files and calculates
+their SHA 256 values.
 
-This program defines the command options and selects either the archived data
-extract supplied with the repository or a data extract provided by the user.
+The `scripts/prepare_hansen_data.py` program prepares the archived data from
+the HANSEN server database, statistics file and validation workbook. Protein
+sequences, structure coordinates, residue measurements, server logs, access
+credentials and web application code are excluded.
 
-### `src/hansen_repro/export.py`
-
-This program reads the HANSEN records, calculates the stated summary values,
-orders the records, writes the TSV files and calculates the SHA 256 values.
-
-### `scripts/build_snapshot.py`
-
-This program is used by the database maintainer to prepare the archived data
-extract from the HANSEN server database, the statistics cache and the
-validation workbook. It excludes protein sequences, structure coordinates,
-residue measurements, server logs, access credentials and web application
-code.
-
-### `tests/test_exports.py`
-
-This program generates all eight data files in a temporary directory. It
-compares their row counts and SHA 256 values with the reference manifest and
-checks that excluded fields are absent from the archived data.
-
-### `.github/workflows/test.yml`
-
-This file instructs GitHub to install the package and run the scientific data
-checks with each supported Python version.
-
-### `src/hansen_repro/__init__.py`
-
-This file identifies the Python package.
-
-### `pyproject.toml`
-
-This file records the installation information and registers the
-`hansen-export` command.
+The `tests/test_hansen_exports.py` program confirms the number of rows and SHA
+256 value for every export and checks that excluded fields are absent.
 
 ## Verification
 
@@ -136,7 +112,7 @@ values with the HANSEN reference manifest.
 ## Archived HANSEN data
 
 The archived data are stored in
-`src/hansen_repro/data/hansen_snapshot.json.gz.b64.part-*`. The four text files
+`src/hansen_database/data/hansen_snapshot.json.gz.b64.part-*`. The four text files
 contain a Base64 representation of one compressed JSON file. The export
 program joins and decodes these files without changing the recorded bytes.
 

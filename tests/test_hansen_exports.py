@@ -9,7 +9,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
-from hansen_repro.export import (  # noqa: E402
+from hansen_database.generate_exports import (  # noqa: E402
     bundled_snapshot,
     generate_exports,
     load_snapshot,

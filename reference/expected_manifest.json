@@ -1,0 +1,57 @@
+{
+  "snapshot": {
+    "path": "hansen_snapshot.json.gz",
+    "sha256": "0c128f8f2a1c93404d886836eed6f82d0a5de6aa5ebd3397f2c018f4c21b93eb",
+    "source": {
+      "server_root": "/data/new-hansen",
+      "database_file": "protein_characteristics.db",
+      "database_sha256": "0c3f786daa193530f2005f4f4009ed88f1624d2fe7231d1988687d0ed23db741",
+      "statistics_cache_file": "static/statistics_cache/hansen_statistics_advanced_v4.json",
+      "statistics_cache_sha256": "64f70f38c12741854efec0c0537699d41c7f35628d529188d13434b7852bd1cc",
+      "statistics_cache_generated_at": 1784553272.363508,
+      "reference_workbook_sha256": "3bd3d5eb859ee8e36f00e63423f0756e601d30a38d409cf144108864ed1310d7"
+    }
+  },
+  "tables": {
+    "S1_All_Models": {
+      "file": "S1_All_Models.tsv",
+      "rows": 7132,
+      "sha256": "d2b7a883b7ac546049f72517af0527ab48287f3a25b105f7e27bb9428bd16122"
+    },
+    "S2_Oligomer_Models": {
+      "file": "S2_Oligomer_Models.tsv",
+      "rows": 736,
+      "sha256": "9e1ad70945a77bde99ad46afd840afc58ec32f233be31ad48b7f476e14b8fd19"
+    },
+    "S3_Oligomer_Ligands": {
+      "file": "S3_Oligomer_Ligands.tsv",
+      "rows": 2439,
+      "sha256": "04bf071d8eab331a13c56ce108554b044e1dedd600e363a75072e0d430eb184a"
+    },
+    "S4_Pockets": {
+      "file": "S4_Pockets.tsv",
+      "rows": 1603,
+      "sha256": "1f8a758bb12434edaa8016d0d61d3aee55c557193f22748bf73b6273248cb42f"
+    },
+    "S5_BCell_Epitopes": {
+      "file": "S5_BCell_Epitopes.tsv",
+      "rows": 1603,
+      "sha256": "bd7913e1d5d11bfb89bd408e7b9f73c20f1967de9f8b09d17908fbd64edc43f9"
+    },
+    "S6_Target_Priority": {
+      "file": "S6_Target_Priority.tsv",
+      "rows": 1603,
+      "sha256": "d7ae6f2a502e084d2051a4fbf5f15a9e8f54e6e08094455444bbd5b6ea7cbb82"
+    },
+    "S7_Essentiality": {
+      "file": "S7_Essentiality.tsv",
+      "rows": 1603,
+      "sha256": "844dd9e96c51dbfbf3eead9534f031f4c856c1ad0ad874389695ba82d32461ce"
+    },
+    "S8_Combined": {
+      "file": "S8_Combined.tsv",
+      "rows": 1603,
+      "sha256": "92c66298036f78bd68faeaa071fafd7f02abe92d8af74a12e853d80595fb3e25"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the versioned HANSEN release when these programs or data are used."
+title: "HANSEN An Integrated Structural and Functional Resource for the Proteome of Mycobacterium leprae"
+type: software
+version: 1.0.0
+date-released: 2026-07-24
+authors:
+  - given-names: "Sundeep Chaitanya"
+    family-names: "Vedithi"
+    orcid: "https://orcid.org/0000-0003-3474-4705"
+repository-code: "https://github.com/sundeep-vedithi/HANSEN"
+url: "https://github.com/sundeep-vedithi/HANSEN"
+license: MIT
+keywords:
+  - Mycobacterium leprae
+  - leprosy
+  - structural biology
+  - target prioritisation
+  - protein structure

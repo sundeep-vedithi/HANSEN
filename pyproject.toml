@@ -28,7 +28,7 @@ classifiers = [
 dependencies = []
 
 [project.scripts]
-hansen-export = "hansen_repro.cli:main"
+hansen-export = "hansen_database.export_hansen_data:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
@@ -37,4 +37,4 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [tool.setuptools.package-data]
-hansen_repro = ["data/*.b64"]
+hansen_database = ["data/*.b64"]

@@ -192,7 +192,7 @@ def load_snapshot(path: Path) -> dict[str, Any]:
 
 @contextmanager
 def bundled_snapshot() -> Iterator[Path]:
-    data_directory = files("hansen_repro").joinpath("data")
+    data_directory = files("hansen_database").joinpath("data")
     parts = sorted(
         item
         for item in data_directory.iterdir()

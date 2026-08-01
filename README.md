@@ -19,6 +19,12 @@ programs required to generate eight tab separated data files. It does not
 contain the web application, protein sequences, structure coordinate files or
 model parameters.
 
+## Supplementary workbooks
+
+The current manuscript supplementary data tables are available as
+[`Supplementary-Workbook-1.xlsx`](Supplementary-Workbook-1.xlsx) and
+[`Supplementary-Workbook-2.xlsx`](Supplementary-Workbook-2.xlsx).
+
 ## Installation and data export
 
 Python 3.10 or a later version is required. The export program uses only the

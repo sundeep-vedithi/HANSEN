@@ -499,7 +499,7 @@ def narrative():
     A(('H2', '5  Confidence'))
     A(('P', 'All confidence values in this section are computed over the 1,598 '
        'proteins compared here, so they differ marginally from the proteome-wide '
-       'values in Table 3 of the main text, which cover 1,603 proteins. The mean '
+       'values in table S28 of the supplementary materials, which cover 1,603 proteins. The mean '
        'pLDDT of the AFDB proteome is '
        f"{S['confidence']['af3']['afdb_plddt_mean']:.1f}. AlphaFold 3 and Chai-1 "
        'report the same level, at '

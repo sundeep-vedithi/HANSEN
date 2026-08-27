@@ -34,7 +34,7 @@ class ExportTest(unittest.TestCase):
         with bundled_snapshot() as snapshot:
             data = load_snapshot(snapshot)
 
-        self.assertEqual(7132, len(data["models"]))
+        self.assertEqual(7122, len(data["models"]))
         self.assertEqual(2439, len(data["oligomer_ligands"]))
         self.assertEqual(1603, len(data["protein_metrics"]))
 

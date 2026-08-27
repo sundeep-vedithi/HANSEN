@@ -45,7 +45,7 @@ by the recorded model score.
 
 ### S2 Oligomer Models
 
-`S2_Oligomer_Models.tsv` contains 736 oligomer model records.
+`S2_Oligomer_Models.tsv` contains 726 oligomer model records.
 
 ### S3 Oligomer Ligands
 
@@ -116,7 +116,7 @@ The archived data are stored in
 contain a Base64 representation of one compressed JSON file. The export
 program joins and decodes these files without changing the recorded bytes.
 
-The archive contains protein display information, 7132 model records, 2439
+The archive contains protein display information, 7122 model records, 2439
 curated oligomer ligand records and the recorded measurements for 1603
 proteins. It excludes amino acid sequences, structure coordinate files,
 residue measurements, access credentials, logs, backups and web application

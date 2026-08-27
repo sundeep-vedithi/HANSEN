@@ -110,9 +110,9 @@ def hansen_metrics(
             """
             SELECT
                 ml_id,
-                proteomelm_ess_probability,
-                proteomelm_ess_class,
-                proteomelm_ess_call
+                proteomelm_leprae_probability AS proteomelm_ess_probability,
+                proteomelm_leprae_class AS proteomelm_ess_class,
+                proteomelm_leprae_call AS proteomelm_ess_call
             FROM hansen_essentiality_predictions
             """
         ).fetchall()
@@ -158,6 +158,10 @@ def main() -> None:
 
     cache = json.loads(args.cache.read_text(encoding="utf-8"))
     metrics = cache.get("table_rows") or []
+    # ML2428A carries structure models but is not one of the 1,603 ranked proteins,
+    # so it appears in the model exports S1 and S2 and is excluded from the
+    # per-protein exports S4 to S8. The reference workbook follows the same rule.
+    metrics = [row for row in metrics if str(row.get("ml_id", "")).strip().upper() != "ML2428A"]
     if len(metrics) != 1603:
         raise SystemExit(
             f"Expected 1,603 protein measurement rows but found {len(metrics):,}"

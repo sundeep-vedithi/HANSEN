@@ -40,7 +40,7 @@ records the number of rows and the SHA 256 value for each file.
 
 ### S1 All Models
 
-`S1_All_Models.tsv` contains 7132 structure model records. Models are ordered
+`S1_All_Models.tsv` contains 7122 structure model records. Models are ordered
 by the recorded model score.
 
 ### S2 Oligomer Models

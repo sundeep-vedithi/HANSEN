@@ -1,7 +1,7 @@
 {
   "snapshot": {
-    "path": "tmpwqzegl78.json.gz",
-    "sha256": "52e0480c91e28c62f3cc19a70b1f3b2070202373224b840c429d9f07fe79337d",
+    "path": "tmpratxpn98.json.gz",
+    "sha256": "bbda6c1a2ccb3a05212eb428c64f3990fe1681e1164f5ce6ee26bcf40d7846a5",
     "source": {
       "server_root": "/data/new-hansen",
       "database_file": "protein_characteristics.db",
@@ -9,7 +9,7 @@
       "statistics_cache_file": "static/statistics_cache/hansen_statistics_advanced_v4.json",
       "statistics_cache_sha256": "5c214603e08dcf271e696975ca99cceae60754947f5c565759eff797099879e3",
       "statistics_cache_generated_at": 1790227332.910365,
-      "reference_workbook_sha256": "4966a0d1b46bb4b8cf937cb36a9252269055b756c2f9b283a73a55199076f8c2"
+      "reference_workbook_sha256": "778376571588aabec66795e0b3db2d84a9630619ec822e0e250be7d7b8aab04b"
     }
   },
   "tables": {

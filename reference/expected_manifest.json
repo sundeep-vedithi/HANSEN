@@ -1,15 +1,15 @@
 {
   "snapshot": {
-    "path": "tmpht5_m1il.json.gz",
-    "sha256": "1ab4b1cad462dc6a7c4c08189b4a09347330b117bef0e46282387b69485ad6e2",
+    "path": "tmpwqzegl78.json.gz",
+    "sha256": "52e0480c91e28c62f3cc19a70b1f3b2070202373224b840c429d9f07fe79337d",
     "source": {
       "server_root": "/data/new-hansen",
       "database_file": "protein_characteristics.db",
-      "database_sha256": "fb8d41b4d3bd430def1b20834065c448b50444a059e5f0230da29e62221ff49f",
+      "database_sha256": "c8739962136a69e47bdc0947131e0047043210a12bb1b6ee0088337e1243e3fb",
       "statistics_cache_file": "static/statistics_cache/hansen_statistics_advanced_v4.json",
-      "statistics_cache_sha256": "68b5085f43cba1d1857467a1491a0923d2daf076c32b4a08f8761c6e2d3e12f0",
-      "statistics_cache_generated_at": 1787824435.686477,
-      "reference_workbook_sha256": "32f47bd8239f8c7e907afd4dd8a596206f836eab552ab9a475dd2e2a75de20bf"
+      "statistics_cache_sha256": "5c214603e08dcf271e696975ca99cceae60754947f5c565759eff797099879e3",
+      "statistics_cache_generated_at": 1790227332.910365,
+      "reference_workbook_sha256": "4966a0d1b46bb4b8cf937cb36a9252269055b756c2f9b283a73a55199076f8c2"
     }
   },
   "tables": {
@@ -31,7 +31,7 @@
     "S4_Pockets": {
       "file": "S4_Pockets.tsv",
       "rows": 1603,
-      "sha256": "53679da32863821c40a811b9fa5befbc34ed0ad4d0095b3da84a2963ca8e642b"
+      "sha256": "b9503e6d7cb44cd4b8af3c9ab78ac850f78b419d8fb636b629c5ac3a73a64fdc"
     },
     "S5_BCell_Epitopes": {
       "file": "S5_BCell_Epitopes.tsv",
@@ -41,7 +41,7 @@
     "S6_Target_Priority": {
       "file": "S6_Target_Priority.tsv",
       "rows": 1603,
-      "sha256": "fe4d0735980cc4cfc87cbab3a58433e37d07e0bf3e2332977cc68f898ff2345a"
+      "sha256": "82c1b713b9167173e9de633993def230277af4332083768d3897c637b27e0a3c"
     },
     "S7_Essentiality": {
       "file": "S7_Essentiality.tsv",
@@ -51,7 +51,7 @@
     "S8_Combined": {
       "file": "S8_Combined.tsv",
       "rows": 1603,
-      "sha256": "8108b63e7e57d48241e5d1b9856ce3fe19eeaaeb8e980cfd649cbae99834da2b"
+      "sha256": "662292cb000a6b65ddf77ddeb862418d356da582fe3e21e7c202c086030fc4fc"
     }
   }
 }

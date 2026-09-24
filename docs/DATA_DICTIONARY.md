@@ -129,15 +129,18 @@ This is the mean predicted aligned error for the protein.
 
 ### `AF2Bind Average`
 
-This is the mean AF2Bind value for the protein.
+This is the mean AF2Bind binding probability (`mean_p_bind`) over the protein's
+AF2Bind model outputs.
 
 ### `P2Rank Average`
 
-This is the mean P2Rank value for the protein.
+This is the mean P2Rank pocket score over every P2Rank pocket predicted on the
+protein's structure models.
 
 ### `F-Pocket Average`
 
-This is the mean fpocket value for the protein.
+This is the mean fpocket druggability score over every fpocket pocket predicted
+on the protein's structure models.
 
 ### `Mean Pocket Score`
 
